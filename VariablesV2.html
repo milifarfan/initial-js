@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Variables</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .my-name {
+      font-size: "20px";
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div id="name" class="my-name"></div>
+      <div id="age" class="my-age"></div>
+    </div>
+    <script>
+      let name = prompt("Ingresa tu nombre");
+      let age = prompt("Ingesa tu edad");
+      document.getElementById("name").innerHTML = `Name: ${name}`;
+      document.getElementById("age").innerHTML = `Age:${age}`;
+      let user = `Name is ${name} , and age is ${age}`;
+    </script>
+  </body>
+</html>

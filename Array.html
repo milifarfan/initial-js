@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <div id="animals">
+
+    </div>
+    <script>
+        var animals = ["Cat", "Dog"];
+        var animals2 = ["Parrot", "Shark"];
+
+        var animals3 = animals.concat(animals2);
+        // document.write(animals3.join(", "));
+
+        var order = animals3.reverse();
+        document.write(order);
+
+        // document.write("There are " + animals.length + " animals.");
+        // animals[animals.length] = "Rabbit";
+        // animals[animals.length] = "Frog";
+
+        // animals.push(Squid", "Pig");
+
+        // animals.pop();
+        
+        // document.write(animals);
+
+        document.getElementById("animals").innerHTML = `There are ${animals.length} animals`
+    </script>
+</body>
+</html>

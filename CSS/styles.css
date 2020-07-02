@@ -1,15 +1,44 @@
-h1 {
-    color: red;
-    font-size:24px;
-}
-
-p {
-    color: grey;
-    font-size:18px;
-}
-
 div {
-    width:50%;
-    background-color:goldenrod;
+    color:black;
+    font-size:25px;
+    width:100%;
+}
+
+.title {
+    background: cyan;
+}
+body{
+    background-color:white;
+}
+
+.color {
+    float: left;
+    width: 30%;
+}
+.color h1 {
+    font-size: 30px;
+    background: orange;
+}
+.color h2 {
+    font-size: 30px;
+    background: yellow;
+    border: 3px solid black;
+}
+.color h3 {
+    font-size:30px;
+    background: green;
+    border: 3px solid black;
+}
+table {
+    border: 3px solid grey;
+    background:rgb(190, 190, 190);
+    border-collapse: separate;
+    width:100%;
+}
+table td {
+    border: 3px solid grey;
+    background: white;
+    padding:5px 40px;
+    color: gray;
 
 }

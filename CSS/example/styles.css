@@ -6,6 +6,7 @@
     font-size:25px;
     width:100%;
     font-weight: bold;
+    border:4px solid #000000;
 }
 body{
     background-color:white;
@@ -16,6 +17,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 .orange {

@@ -1,10 +1,10 @@
 let curso = "node";
 curso = "node.js";
-curso = "node.jss";
+curso = "node.jjs";
 
 console.log(curso);
 
-x = () => {
+x = ()=>{
     return 1 + 1;
 }
 

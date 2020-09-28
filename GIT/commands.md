@@ -21,3 +21,6 @@
 
 * Crear rama
   git checkout -b "branch-name"
+
+* Borrar archivo del repositorio de github
+  git rm -r --cached "file/folder name"
